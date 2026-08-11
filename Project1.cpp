@@ -32,7 +32,7 @@ int main() {
         cout << "Data written: " << data << endl;
     }
 
-    // Don't forget to free the memory!
+    //  free the memory!
     if (freememory != NULL) {
         VirtualFree(freememory, 0, MEM_RELEASE);
         cout << "Memory freed successfully" << endl;
